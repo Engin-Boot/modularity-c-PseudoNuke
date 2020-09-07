@@ -10,8 +10,8 @@ namespace TelCo.ColorCoder
         
         private static void Main(string[] args)
         {
-            ColorCodingPairNumber c1 = new ColorCodingPairNumber();
-            ColorCodingColorPair c2 = new ColorCodingColorPair();
+            ColorPairNumber c1 = new ColorPairNumber();
+            ColorPairColor c2 = new ColorPairColor();
             int pairNumber = 4;
             ColorPair testPair1 = c1.GetColorFromPairNumber(pairNumber);
             Console.WriteLine("[In]Pair Number: {0},[Out] Colors: {1}\n", pairNumber, testPair1);
